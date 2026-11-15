@@ -1,49 +1,123 @@
-# Title: Dynamic User Interface Interaction Modules
+# Dynamic User Interface Modules
 
-## Description:
+A collection of reusable JavaScript modules for enhancing front-end web applications. Currently includes a dropdown menu and an image carousel.
 
-Enhance the interactivity and user experience of your front-end web projects with these ready-to-use modules. This lightweight library provides essential UI interaction components, including:
+## Features
 
-### Dropdown Menu Module
+- **Dropdown Menu:** Create interactive dropdown menus.
 
-Create customizable dropdown menus with ease.
+- **Image Carousel:** Display and navigate through images.
 
-### Image Carousel Module
+- **Reusable Modules:** Easily integrate components into existing projects.
 
-Implement smooth and flexible image carousel functionality.
+- **Customisable:** Adapt the modules to suit your project's requirements.
 
-### Features:
+- **Lightweight:** Simple implementation without unnecessary dependencies.
 
-Simple Integration: Easily incorporate these modules into your existing projects.
-Customization Options: Configure the modules to suit your specific design needs.
-Lightweight Design: Maintain a performant and efficient user interface.
+## Tech Stack
 
-## Installation:
+- JavaScript (ES6)
 
-Initialize your project as follows;
-`npm init`
+- HTML5
 
-Install dependencies using npm
-`npm i dynamic_user_interface_modules`
+- CSS3
 
-### Import the desired modules into your project
+- Webpack
 
-In your main HTML file import the modules as follows;
+- NPM
 
+## Getting Started
+
+## Live Demo
+
+[View Live Demo](http://amalk.au/dynamic-user-interface-npm-modules/)
+
+## Links
+
+- **NPM Package:** [dynamic\_user\_interface\_modules](https://www.npmjs.com/package/dynamic_user_interface_modules/access)
+
+- **GitHub Repository:** [dynamic-user-interface-npm-modules](https://github.com/amalk-au/dynamic-user-interface-npm-modules)
+
+### Prerequisites
+
+- Node.js
+
+- NPM
+
+### Installation
+
+Install the package from NPM:
+
+```
+npm install dynamic_user_interface_modules
+```
+
+**NPM Package:**[dynamic\_user\_interface\_modules](https://www.npmjs.com/package/dynamic_user_interface_modules/access)
+
+### Usage
+
+Import the required modules into your JavaScript file:
+
+```
+import { dropDownMenu } from "dynamic_user_interface_modules";
+import { imageCarousel } from "dynamic_user_interface_modules";
+```
+
+Import the required stylesheet:
+
+```
 import "./mainStyleSheet.css";
+```
 
-import { dropDownMenu } from "./dropDownMenuModule.js";
+Configure the HTML and CSS elements according to the module requirements.
 
-import { imageCarousel } from "./imageCarouselModule.js";
+## Development
 
-## Setup
+Clone the repository:
 
-This module requires Webpack for building. The included index.html, mainJavaScript.js, and mainStyle.css files demonstrate the recommended file structure for using the module effectively. You will need to set up your HTML file as per the index.html and the CSS as per the mainStyle.css.
+```
+git clone https://github.com/amalk-au/dynamic-user-interface-npm-modules.git
+```
 
-### Source Code
+Navigate to the project directory:
 
-`https://github.com/1Amal/dynamicUserInterfaceInteractionNpmModules`
+```
+cd dynamic-user-interface-npm-modules
+```
 
-### Live demo
+Install dependencies:
 
-`https://1amal.github.io/dynamicUserInterfaceInteractionNpmModules/`
+```
+npm install
+```
+
+Build the project:
+
+```
+npm run build
+```
+
+## Project Structure
+
+```
+dynamic-user-interface-npm-modules/
+├── src/                  # Source files
+├── dist/                 # Production build
+├── package.json          # Project configuration
+├── package-lock.json     # Dependency lock file
+├── webpack.config.js     # Webpack configuration
+├── LICENSE
+└── README.md
+```
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0). See the [LICENSE](LICENSE) file for details.
+
+## Author
+
+**Amal K**
+
+- GitHub: [@amalk-au](https://github.com/amalk-au)
+
+- Portfolio: [amalk.au](https://www.amalk.au)
