@@ -6,7 +6,10 @@ A collection of reusable JavaScript modules for enhancing front-end web applicat
 
 - **Dropdown Menu:** Create interactive dropdown menus.
 
+![drop-down-menu](./docs/screenshots/drop-down-menu.png)
+
 - **Image Carousel:** Display and navigate through images.
+  ![image-carousel](./docs/screenshots/image-carousel.png)
 
 - **Reusable Modules:** Easily integrate components into existing projects.
 
@@ -28,9 +31,7 @@ A collection of reusable JavaScript modules for enhancing front-end web applicat
 
 ## Getting Started
 
-## Live Demo
-
-[View Live Demo](http://amalk.au/dynamic-user-interface-npm-modules/)
+## [View Live Demo](http://amalk.au/dynamic-user-interface-npm-modules/)
 
 ## Links
 
